@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: crimson;
+}
+
+h2{
+    color:blueviolet;
+}
+
+h3{
+    color: goldenrod;
+}
+
+.container {
+    width: 80%;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: underline;
+    color:blueviolet;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+ul li {
+    margin: 10px 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+ul li::before {
+    content: '■';
+    position:relative;
+    left: 0;
+    font-size: 0.8em;
+    top: 50%;
+}
+
+ol{
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.responsive-img {
+    width: 400px; /* Genişliği 300 piksel olarak ayarlar */
+    height: 400px; /* Yüksekliği 200 piksel olarak ayarlar */
+}
+
